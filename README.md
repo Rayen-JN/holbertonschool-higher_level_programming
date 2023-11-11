@@ -14,7 +14,7 @@ Welcome to the Python Learning Repository! This repository is designed to help y
 8. [Input and Output in Python](#python-input-output)
 9. [Test-Driven Development in Python](#python-test-driven-development)
 
-## Python Classes
+## :large_blue_diamond: Python Classes
 
 Learn the fundamentals of object-oriented programming (OOP) in Python. Understand how to create and use classes, define attributes and methods, and implement encapsulation, inheritance, and polymorphism.
 
@@ -26,7 +26,7 @@ Explore the various data structures in Python, including lists, tuples, sets, an
 
 Discover the object-oriented nature of Python. Understand how everything in Python, from simple data types to complex structures, is treated as an object, and explore the implications of this paradigm.
 
-## Python Exceptions
+## :tent: Python Exceptions
 
 Handle errors gracefully in Python by understanding and implementing exception handling. Learn about try-except blocks, raising exceptions, and creating custom exception classes.
 
