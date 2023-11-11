@@ -1,4 +1,4 @@
-# Python Learning Repository
+# :computer: Python Learning Repository
 
 Welcome to the Python Learning Repository! This repository is designed to help you understand and practice fundamental concepts in Python programming. Whether you are a beginner looking to get started or an experienced developer seeking a refresher, you'll find valuable information and examples here.
 
