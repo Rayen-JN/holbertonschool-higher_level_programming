@@ -2,7 +2,7 @@
 
 Welcome to the Python Learning Repository! This repository is designed to help you understand and practice fundamental concepts in Python programming. Whether you are a beginner looking to get started or an experienced developer seeking a refresher, you'll find valuable information and examples here.
 
-## Table of Contents
+## :page_with_curl: Table of Contents
 
 1. [Python Classes](#python-classes)
 2. [Python Data Structures](#python-data-structures)
@@ -50,7 +50,7 @@ Explore methods for handling input and output in Python. Learn about reading and
 
 Embrace the practice of test-driven development (TDD) in Python. Discover the benefits of writing tests before implementing code, and explore popular testing frameworks like `unittest` and `pytest`.
 
-## Contributing
+## :black_nib: Contributing
 
 We welcome contributions. Feel free to fork the repository, make your changes, and submit a pull request.
 Happy coding!
