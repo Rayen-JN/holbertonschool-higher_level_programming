@@ -11,7 +11,7 @@ Welcome to the Python Input and Output repository! This repository contains info
 5. [Formatting Output](#formatting-output)
 6. [Examples](#examples)
 7. [Contribution](#contribution)
-8. [License](#license)
+
 
 ## Introduction
 
