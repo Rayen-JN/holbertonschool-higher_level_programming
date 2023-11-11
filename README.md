@@ -2,6 +2,8 @@
 
 Welcome to the Python Learning Repository! This repository is designed to help you understand and practice fundamental concepts in Python programming. Whether you are a beginner looking to get started or an experienced developer seeking a refresher, you'll find valuable information and examples here.
 
+
+
 ## :page_with_curl: Table of Contents
 
 1. [Python Classes](#python-classes)
@@ -57,5 +59,6 @@ We welcome contributions. Feel free to fork the repository, make your changes, a
 ## :full_moon_with_face: Acknowledgments
 
 Thank you for checking out our project!
+The repo was made by Rayen, a student of Holberton School.
 
 Happy coding!
