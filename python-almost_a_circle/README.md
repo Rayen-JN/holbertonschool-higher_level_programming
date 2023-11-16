@@ -20,13 +20,11 @@ In Python, *args and **kwargs are used to allow a function to accept a variable 
 # *args :
 The *args syntax allows a function to accept any number of positional arguments.
 It collects these arguments into a tuple. Here's an example:
-![arg](https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/f54adfe3-678d-4af1-8dcb-539c63b62376)
-
+<img aline = "left" width = "900px" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/f54adfe3-678d-4af1-8dcb-539c63b62376"/>
 # **kwargs :
 The **kwargs syntax allows a function to accept any number of keyword arguments.
 It collects these arguments into a dictionary. Here's an example:
-![karg](https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/591b5f67-a668-42b3-8024-a68889582a98)
-
+<img aline = "left" width = "600px" src = "https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/591b5f67-a668-42b3-8024-a68889582a98"/>
 
 # Using both *args and **kwargs :
 <img aline = "left" width = "600px" src = "https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/8117d125-3ca8-4dee-9470-ef8d9baffb54"/>
