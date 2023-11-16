@@ -1,9 +1,8 @@
 
 <div align="center">
 
-<img width = "60px" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/e97f3d4c-0161-474d-bf7c-a1c8ced0c94a"/>
-
-# Python - Almost a circle
+<img width = "60px" style="float:right" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/e97f3d4c-0161-474d-bf7c-a1c8ced0c94a"/>
+<h1>Python - Almost a circle</h2>
 
 
 </div>
