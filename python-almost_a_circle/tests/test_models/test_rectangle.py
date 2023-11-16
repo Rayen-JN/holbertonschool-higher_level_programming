@@ -191,11 +191,11 @@ class TestRectangle_height(unittest.TestCase):
 
     def test_None_height(self):
         with self.assertRaisesRegex(TypeError, "height must be an integer"):
-            Rectangle(1, None)
+            Rectangle(1, None)# Expects TypeError
 
     def test_str_height(self):
         with self.assertRaisesRegex(TypeError, "height must be an integer"):
-            Rectangle(1, "invalid")
+            Rectangle(1, "invalid")# Expects TypeError
 
     def test_float_height(self):
         with self.assertRaisesRegex(TypeError, "height must be an integer"):
@@ -211,7 +211,7 @@ class TestRectangle_height(unittest.TestCase):
 
     def test_list_height(self):
         with self.assertRaisesRegex(TypeError, "height must be an integer"):
-            Rectangle(1, [1, 2, 3])
+            Rectangle(1, [1, 2, 3])# Expects TypeError
 
     def test_set_height(self):
         with self.assertRaisesRegex(TypeError, "height must be an integer"):
