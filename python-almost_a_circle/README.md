@@ -1,7 +1,7 @@
 
 <div align="center">
 
-<img aline = "left" width = "25px" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/e97f3d4c-0161-474d-bf7c-a1c8ced0c94a" style="float:left;width:42px;height:42px;/>
+<img aline = "left" width = "25px" style="float:left;width:42px;height:42px;" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/e97f3d4c-0161-474d-bf7c-a1c8ced0c94a"/>
 
 # :computer: Python - Almost a circle
 
