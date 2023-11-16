@@ -12,7 +12,7 @@ In Python, unittest is a built-in testing framework that allows you to write tes
 The unittest module is part of the standard library, and it provides a set of tools for constructing and running tests.
 Here's a basic example to get you started:
 
-<img aline = "left" width = "900px" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/7cfb53d7-2904-4c15-9fc1-b432a829fa37"/>
+<img aline = "left" width = "700px" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/7cfb53d7-2904-4c15-9fc1-b432a829fa37"/>
 
 # *args **kwargs :
 In Python, *args and **kwargs are used to allow a function to accept a variable number of arguments. They are often used when you want to create flexible functions that can handle different numbers of input parameters.
