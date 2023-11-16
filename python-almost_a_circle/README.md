@@ -1,4 +1,4 @@
-# Python - Almost a circle
+# :computer: Python - Almost a circle
 
 ![I_love_code](https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/dbd6ab27-1fbf-49d8-b65f-42a67297e583)
 
