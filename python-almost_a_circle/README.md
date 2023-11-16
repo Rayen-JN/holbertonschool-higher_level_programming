@@ -29,7 +29,7 @@ It collects these arguments into a dictionary. Here's an example:
 
 
 # Using both *args and **kwargs :
-<img aline = "center" width = "300px" src = "https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/8117d125-3ca8-4dee-9470-ef8d9baffb54"/>
+<img aline = "left" width = "600px" src = "https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/8117d125-3ca8-4dee-9470-ef8d9baffb54"/>
 
 
 
