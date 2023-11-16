@@ -11,8 +11,10 @@
 # :wrench: unittest :
 
 In Python, unittest is a built-in testing framework that allows you to write test cases for your code.
-The unittest module is part of the standard library, and it provides a set of tools for constructing and running tests.
+The unittest module is part of the standard library,
+and it provides a set of tools for constructing and running tests.
 Here's a basic example to get you started:
+
 
 <img aline = "left" width = "600px" src ="https://github.com/Rayen-JN/holbertonschool-higher_level_programming/assets/135613265/7cfb53d7-2904-4c15-9fc1-b432a829fa37"/>
 
