@@ -44,7 +44,7 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
-        if type(value) != int:
+        if type(value) is not int:
             raise TypeError("x must be an integer")
         if value < 0:
             raise ValueError("x must be >= 0")
