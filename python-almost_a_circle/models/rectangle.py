@@ -78,7 +78,7 @@ class Rectangle(Base):
             print("")
 
     def update(self, *args, **kwargs):
-        if args and len(args) != 0:
+        if args and len(args) is not 0:
             a = 0
             for arg in args:
                 if a == 0:
