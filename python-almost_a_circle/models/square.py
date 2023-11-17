@@ -6,6 +6,7 @@ from models.rectangle import Rectangle
 class Square(Rectangle):
 
     def __init__(self, size, x=0, y=0, id=None):
+        # Call superclass constructor with size arguments
         super().__init__(size, size, x, y, id)
 
     @property
@@ -14,10 +15,12 @@ class Square(Rectangle):
 
     @size.setter
     def size(self, value):
+        # Set both width and height to given value
         self.width = value
         self.height = value
 
     def update(self, *args, **kwargs):
+        # Check for positional arguments and update object properties accordingly
         if args and len(args) != 0:
             a = 0
             for arg in args:
@@ -33,7 +36,7 @@ class Square(Rectangle):
                 elif a == 3:
                     self.y = arg
                 a += 1
-
+# Check for keyword arguments and update object properties accordingly
         elif kwargs and len(kwargs) != 0:
             for k, v in kwargs.items():
                 if k == "id":
