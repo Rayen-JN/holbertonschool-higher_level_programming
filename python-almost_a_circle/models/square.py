@@ -1,65 +1,77 @@
 #!/usr/bin/python3
-
+"""
+module for square class
+"""
 from models.rectangle import Rectangle
 
 
 class Square(Rectangle):
+    """
+    class Square that inherits from Rectangle
+    """
 
     def __init__(self, size, x=0, y=0, id=None):
-        # Call superclass constructor with size arguments
         super().__init__(size, size, x, y, id)
+
+    def __str__(self):
+        """ return the representation of a square """
+        return "[Square] ({}) {}/{} - {}".\
+            format(self.id, self.x, self.y, self.width)
 
     @property
     def size(self):
+        """
+        Get the size of the square.
+
+        :return: The sire of the square.
+        """
         return self.width
 
     @size.setter
     def size(self, value):
-        # Set both width and height to given value
+        """
+        Set the size of the square.
+
+        :param value: The new size for the square.
+        """
+        if not isinstance(value, int):
+            raise TypeError("width must be an integer")
+        if value <= 0:
+            raise ValueError("width must be > 0")
         self.width = value
         self.height = value
 
     def update(self, *args, **kwargs):
-
-        if args and len(args) != 0:
-            a = 0
-            for arg in args:
-                if a == 0:
-                    if arg is None:
-                        self.__init__(self.size, self.x, self.y)
-                    else:
-                        self.id = arg
-                elif a == 1:
-                    self.size = arg
-                elif a == 2:
-                    self.x = arg
-                elif a == 3:
-                    self.y = arg
-                a += 1
-        # Check for keyword arguments and update object properties accordingly
-        elif kwargs and len(kwargs) != 0:
-            for k, v in kwargs.items():
-                if k == "id":
-                    if v is None:
-                        self.__init__(self.size, self.x, self.y)
-                    else:
-                        self.id = v
-                elif k == "size":
-                    self.size = v
-                elif k == "x":
-                    self.x = v
-                elif k == "y":
-                    self.y = v
+        """ Update the class square """
+        count = 0
+        for arg in args:
+            if count == 0:
+                self.id = arg
+            if count == 1:
+                self.width = arg
+                self.height = arg
+            if count == 2:
+                self.x = arg
+            if count == 3:
+                self.y = arg
+            count += 1
+        if count == 0:
+            for key, value in kwargs.items():
+                if key == "id":
+                    self.id = value
+                if key == "size":
+                    self.width = value
+                    self.height = value
+                if key == "x":
+                    self.x = value
+                if key == "y":
+                    self.y = value
 
     def to_dictionary(self):
-
+        """returns dictionary represent a square"""
         return {
-            "id": self.id,
-            "size": self.width,
-            "x": self.x,
-            "y": self.y
+            'id': self.id,
+            'size': self.width,
+            'x': self.x,
+            'y': self.y
         }
-
-    def __str__(self):
-        return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y,
-                                                 self.width)
